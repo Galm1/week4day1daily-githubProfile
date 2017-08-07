@@ -35,7 +35,7 @@ function displayProfile() {
   </div>
 
   <div ="profileImg">
-    <img src="${data.avatar_url}" alt="profile picture">
+    <img class='picture' src="${data.avatar_url}" alt="profile picture">
   </div>
 
 `;
