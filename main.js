@@ -23,7 +23,7 @@ function displayProfile() {
   <div class="content">
 
   <div id="basics">
-    <h3>The Basics</h3>
+    <h2>The Basics</h3>
       <p>Name: ${data.name}</p>
       <p>Github URL: ${data.html_url}</p>
       <p>Email: ${data.email}</p>
@@ -32,8 +32,10 @@ function displayProfile() {
   </div>
 
   <div id="theStory">
-    <h3>The Story</h3>
-      <p>${data.bio}</p>
+    <h2>The Story</h3>
+      <div id='p_content'>
+      <p id='p'>${data.bio}</p>
+      </div>
   </div>
 
   <div ="profileImg">
