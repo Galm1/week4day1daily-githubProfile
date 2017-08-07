@@ -10,6 +10,12 @@ body {
   height: 40%;
   width: 90%;
   margin: 100px 75px;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
 }
 
 header {

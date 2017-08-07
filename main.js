@@ -20,6 +20,8 @@ function displayProfile() {
     <h1>${data.login}</h1>
   </header>
 
+  <div class="content">
+
   <div id="basics">
     <h3>The Basics</h3>
       <p>Name: ${data.name}</p>
@@ -37,6 +39,8 @@ function displayProfile() {
   <div ="profileImg">
     <img class='picture' src="${data.avatar_url}" alt="profile picture">
   </div>
+
+  <div>
 
 `;
 
